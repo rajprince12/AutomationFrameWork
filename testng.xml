@@ -4,13 +4,13 @@
   <test name="TestGC">
     <parameter name="browser" value="chrome"/>
     <packages>
-    <package name="generic"/>
+    <package name="script"/>
     </packages>
   </test> <!-- Test -->
   <test name="TestFB">
-    <parameter name="browser" value="FIREFOX"/>
+    <parameter name="browser" value="firefox"/>
     <packages>
-    <package name="generic"/>
+    <package name="script"/>
     </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
