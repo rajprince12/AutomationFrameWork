@@ -1,10 +1,13 @@
 package script;
 
+import org.testng.annotations.Test;
+
 import generic.BaseTest;
 import generic.Excel;
 import pages.LoginPage;
 
 public class InvalidLoginForMultipleinputs extends BaseTest {
+	@Test(priority=2,groups="login")
 	public void testInvalidLogin() throws InterruptedException
 	{
 		int rc=Excel.getRowCount(Xl_PATH, "InvalidLogin1");
